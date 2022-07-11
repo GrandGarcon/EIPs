@@ -18,7 +18,7 @@ interface IERC3475 {
     }
     /**
      * @dev structure allows the transfer of any given number of bonds from one address to another.
-     * @title": "defining the title information",
+     * @title: "defining the title information",
      * @type": "explaining the type of the title information added",
      * @description": "little description about the information stored in the bond",
      */
@@ -122,7 +122,7 @@ interface IERC3475 {
     function classValues(uint256 classId, uint256 metadataId) external view returns ( Values memory);
     /**
      * @dev Returns the values of given nonceId.
-     * @param  The metadata SHOULD follow a set of structures explained in eip-3475.md
+     * @param The metadata SHOULD follow a set of structures explained in eip-3475.md
      * @param classId is the class of bonds for which you determine the nonce .
      * @param nonceId is the nonce for which you return the value struct info   
      */
